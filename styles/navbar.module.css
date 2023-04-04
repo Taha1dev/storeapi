@@ -1,0 +1,25 @@
+.nav{
+  padding: 20px 0;
+  box-shadow: 2px 1px 1px  #ccc;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link{
+  text-decoration: none;
+  color: #333;
+}
+.container ul{
+  display: flex;
+}
+
+.container ul li{
+  margin-left: 30px;
+}
+
+.logo{
+  font-size: 1.5rem;
+
+}

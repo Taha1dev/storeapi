@@ -1,0 +1,36 @@
+.productContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.productImage {
+  margin-right: 20px;
+}
+
+.productDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.productTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.productCategory {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.productPrice {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.productDescription {
+  margin: 10px 0;
+}

@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
   "dependencies": {
     "next": "13.2.4",
+    "prettier": "^2.8.7",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   }
